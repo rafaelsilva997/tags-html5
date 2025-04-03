@@ -27,11 +27,6 @@
     padding: 0px;
 }
 
-.none {
-    color: black;
-    font-weight: bold;
-}
-
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
@@ -141,7 +136,8 @@ main a:hover {
 }
 
 main img {
-    width: 100%;
+    display: inline-block;
+    margin-top: 5px;
 }
 
 aside {
@@ -172,3 +168,4 @@ footer {
     font-size: 0.8em;
     padding: 5px;
 }
+
