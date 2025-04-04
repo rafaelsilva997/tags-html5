@@ -9,129 +9,180 @@
 </head>
 <body>
     <header>
-        <h1>Formatações de tags em HTML5 e CSS3</h1>
+        <h1>
+            Formatações de tags em HTML5 e CSS3
+        </h1>
         <p>
-            Tags em HTML 5
+            Tags em HTML5
         </p>
     </header>
-    <hr>
     <nav>
         <a href="index.html">Inicio</a>
         <a href="#">Facebook</a>
         <a href="#">WhatsApp</a>
     </nav>
-    <hr>
     <main>
-            <article>
-                <h1>HTML5</h1>
-                <h3>Formatação de Texto</h3>
-                    <div class="caixas">
-                        <strong>Negrito:</strong><img src="imagens/negrito.png" alt="tag negrito" width="150px" height="20x">
-                    </div>
-                    <div class="caixas">
-                        <strong>Itálico:</strong><img src="imagens/italico.png" alt="tag italico" width="150px" height=" 20px">
-                    </div>
-                    <div class="caixas">
-                        <strong>Sublinhado:</strong><img src="imagens/sublinhado.png" alt="tag sublinhado" width="150px" height="20px">
-                    </div>
-                    <div class="caixas">
-                        <strong>Tachado (riscado):</strong><img src="imagens/tachado.png" alt="tag tachado" width="150px" height="20px">
-                    </div>
-                    <div class="caixas">
-                        <strong>Sobrescrito:</strong><img src="imagens/sobrescrito.png" alt="tag sobrescrito" 
-                        width="150px" height="20px">
-                    </div>
-                    <div class="caixas">
-                        <strong>Subscrito:</strong><img src="imagens/subscrito.png" alt="tag subscrito" width="150px" height="20px">
-                    </div>
-                    <div class="caixas">
-                        <strong>Código-fonte:</strong><img src="imagens/codigo-fonte.png" alt="tag codigo fonte" width="150px" height="20px">
-                    </div>
-                    <div class="caixas">
-                        <strong>Destacado:</strong><img src="imagens/destacado.png" alt="tag destacado" width="150px" height="20px">
-                    </div>
-                    <div class="caixas">
-                        <strong>Citação curta:</strong><img src="imagens/citacao-curta.png" alt="tag citação curta" width="150px" height="20px">
-                    </div>
-                    <div class="caixas">
-                        <strong>Citação em bloco:</strong><img src="imagens/citacao-bloco.png" alt="tag citação em bloco" width="150px" height="20px">
-                    </div>
-                    <strong>Texto pequeno:</strong>   &lt;small&gt;
-                <br>
-                    <strong>Texto pré-formatado:</strong>   &lt;pre&gt;
-                </p>
-                <h3>
-                    Listas
-                </h3>
+        <h1>
+            HTML5
+        </h1>
+
+        <h3>
+            Formatação de Texto
+        </h3>
+
+        <div class="caixas">
+            <strong>Negrito:</strong><strong id="none">Texto</strong>
+            <p>
+                &lt;strong&gt;...&lt;/strong&gt;
+            </p>
+        </div>
+
+        <div class="caixas">
+            <strong>Itálico:</strong><em>Texto</em>
+            <p>
+                &lt;em&gt;...&lt;/em&gt;
+            </p>
+        </div>
+        
+        <div class="caixas">
+            <strong>Sublinhado:</strong><u>Texto</u>
+            <p>
+                &lt;u&gt;...&lt;/u&gt;
+            </p>
+        </div>
+
+        <div class="caixas">
+            <strong>Tachado (riscado):</strong><del>texto</del>
+            <p>
+                &lt;del&gt;...&lt;/del&gt;
+            </p>
+        </div>
+        
+        <div class="caixas">
+            <strong>Sobrescrito:</strong><sup>texto</sup>
+            <p>
+                &lt;sup&gt;...&lt;/sup&gt;
+            </p>
+        </div>
+
+        <div class="caixas">
+            <strong>Subscrito:</strong><sub>Texto</sub>
+            <p>
+                &lt;sub&gt;...&lt;/sub&gt;
+            </p>
+        </div>
+
+        <div class="caixas">
+            <strong>Código-fonte:</strong><code>texto</code>
+            <p>
+                &lt;code&gt;...&lt;/code&gt;
+            </p>
+        </div>
+
+        <div class="caixas">
+            <strong>Destacado:</strong><mark>Texto</mark>
+            <p>
+                &lt;code&gt;...&lt;/code&gt;
+            </p>
+        </div>
+
+        <div class="caixas">
+            <strong>Citação curta:</strong><q>Texto</q>
+            <p>
+                &lt;q&gt;...&lt;/q&gt;
+            </p>
+        </div>
+        <div class="caixas">
+            <strong>Citação em bloco:</strong><blockquote>Texto</blockquote>
+            <p>
+                &lt;blockquote&gt;...&lt;/blockquote&gt;
+            </p>
+        </div>
+
+        <div class="caixas">
+            <strong>Texto pequeno:</strong><small>Texto</small>
+            <p>
+                &lt;small&gt;...&lt;/small&gt;
+            </p>
+        </div>
+
+            <div class="caixas">
+                <strong>Texto pré-formatado:</strong><pre>Texto</pre>
                 <p>
-                    <strong>Lista não ordenada:</strong> &lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;
-                <br>
-                    <strong>Lista ordenada:</strong> &lt;ol&gt; &lt;li&gt;Item&lt;/li&gt;&lt;/ol&gt;
-                <br>
-                    Lista de definição: &lt;dl&gt;&lt;dt&gt;Título&lt;/dt&gt; &lt;dd&gt;Descrição&lt;/dd&gt;&lt;/dl&gt;
+                    &lt;pre&gt;...&lt;/pre&gt;
                 </p>
-                <h3>
-                    Elementos de Tabela
-                </h3>
-                <p>
-                    <strong>&lt;table&gt;</strong> → Define uma tabela
-                <br>
-                    <strong>&lt;tr&gt;</strong> → Define uma linha
-                <br>
-                    <strong>&lt;td&gt;</strong> → Define uma célula
-                <br>
-                    <strong>&lt;th&gt;</strong> → Define um cabeçalho de célula
-                <br>
-                    <strong>&lt;caption&gt;</strong> → Define um título para a tabela
-                <br>
-                    <strong>&lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;</strong> → Estrutura da tabela
-                </p>
-                <h3>
-                    Elementos de Mídia
-                </h3>
-                <p>
-                    <strong>Imagem:</strong> &lt;img src="imagem.jpg" alt="Descrição"&gt;
-                <br>
-                    <strong>Áudio:</strong> &lt;audio controls&gt; &lt;source src="audio.mp3" type="audio/mpeg"&gt; &lt;/audio&gt;
-                <br>
-                    <strong>Vídeo:</strong> &lt;video controls&gt; &lt;source src="video.mp4" type="video/mp4"&gt; &lt;/video&gt;
-                <br>
-                    <strong>Iframe:</strong> &lt;iframe src="https://exemplo.com"&lt;&gt;/iframe&gt;
-                </p>
-                <h3>
-                    Elementos Interativos
-                </h3>
-                <p>
-                    <strong>Botão:</strong> &lt;button&gt;Click aqui&lt;/button&gt;
-                <br>
-                    <strong>Links:</strong> &lt;a href="https://site.com"&gt;Clique aqui&lt;/a&gt;
-                <br>
-                    <strong>Formulários:</strong> &lt;form&gt; &lt;input type="text"&gt;&lt;input type="submit"&gt; &lt;/form&gt;
-                <br>
-                    <strong>Detalhes ocultáveis:</strong> &lt;details&gt; &lt;summary&gt;Ver mais&lt;/summary&gt; Informação oculta&lt;/details&gt;
-                </p>
-                <h3>
-                   Elementos Estruturais
-                </h3>
-                <p>
-                    <strong>Cabeçalhos:</strong> &lt;h1&gt; até &lt;h6&gt;
-                <br>
-                    <strong>Parágrafo:</strong> &lt;p&gt;
-                <br>
-                    <strong>Divisão de conteúdo:</strong> &lt;div&gt;
-                <br>
-                    <strong>Seção:</strong> &lt;section&gt;
-                <br>
-                    <strong>Cabeçalho de página:</strong> &lt;header&gt;
-                <br>
-                    <strong>Rodapé:</strong> &lt;footer&gt;
-                <br>
-                    <strong>Navegação:</strong> &lt;nav&gt;
-                <br>
-                    <strong>Artigo:</strong> &lt;article&gt;
-                <br>
-                    <strong>Barra lateral:</strong> &lt;aside&gt;
-            </article>
+            </div>
+        <h3>
+            Listas
+        </h3>
+        <p>
+            <strong>Lista não ordenada:</strong> &lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;
+        <br>
+            <strong>Lista ordenada:</strong> &lt;ol&gt; &lt;li&gt;Item&lt;/li&gt;&lt;/ol&gt;
+        <br>
+            Lista de definição: &lt;dl&gt;&lt;dt&gt;Título&lt;/dt&gt; &lt;dd&gt;Descrição&lt;/dd&gt;&lt;/dl&gt;
+        </p>
+        <h3>
+            Elementos de Tabela
+        </h3>
+        <p>
+            <strong>&lt;table&gt;</strong> → Define uma tabela
+        <br>
+            <strong>&lt;tr&gt;</strong> → Define uma linha
+        <br>
+            <strong>&lt;td&gt;</strong> → Define uma célula
+        <br>
+            <strong>&lt;th&gt;</strong> → Define um cabeçalho de célula
+        <br>
+            <strong>&lt;caption&gt;</strong> → Define um título para a tabela
+        <br>
+            <strong>&lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;</strong> → Estrutura da tabela
+        </p>
+        <h3>
+            Elementos de Mídia
+        </h3>
+        <p>
+            <strong>Imagem:</strong> &lt;img src="imagem.jpg" alt="Descrição"&gt;
+        <br>
+            <strong>Áudio:</strong> &lt;audio controls&gt; &lt;source src="audio.mp3" type="audio/mpeg"&gt; &lt;/audio&gt;
+        <br>
+            <strong>Vídeo:</strong> &lt;video controls&gt; &lt;source src="video.mp4" type="video/mp4"&gt; &lt;/video&gt;
+        <br>
+            <strong>Iframe:</strong> &lt;iframe src="https://exemplo.com"&lt;&gt;/iframe&gt;
+        </p>
+        <h3>
+            Elementos Interativos
+        </h3>
+        <p>
+            <strong>Botão:</strong> &lt;button&gt;Click aqui&lt;/button&gt;
+        <br>
+            <strong>Links:</strong> &lt;a href="https://site.com"&gt;Clique aqui&lt;/a&gt;
+        <br>
+            <strong>Formulários:</strong> &lt;form&gt; &lt;input type="text"&gt;&lt;input type="submit"&gt; &lt;/form&gt;
+        <br>
+            <strong>Detalhes ocultáveis:</strong> &lt;details&gt; &lt;summary&gt;Ver mais&lt;/summary&gt; Informação oculta&lt;/details&gt;
+        </p>
+        <h3>
+            Elementos Estruturais
+        </h3>
+        <p>
+            <strong>Cabeçalhos:</strong> &lt;h1&gt; até &lt;h6&gt;
+        <br>
+            <strong>Parágrafo:</strong> &lt;p&gt;
+        <br>
+            <strong>Divisão de conteúdo:</strong> &lt;div&gt;
+        <br>
+            <strong>Seção:</strong> &lt;section&gt;
+        <br>
+            <strong>Cabeçalho de página:</strong> &lt;header&gt;
+        <br>
+            <strong>Rodapé:</strong> &lt;footer&gt;
+        <br>
+            <strong>Navegação:</strong> &lt;nav&gt;
+        <br>
+            <strong>Artigo:</strong> &lt;article&gt;
+        <br>
+            <strong>Barra lateral:</strong> &lt;aside&gt;
     </main>
     <aside>
         <h3>Para mais informações sobre as Tags clique nos links</h2>
