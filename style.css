@@ -140,6 +140,21 @@ main img {
     margin-top: 5px;
 }
 
+div.caixas {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    width: 150px;
+    margin: 2px;
+    text-align: center;
+}
+
+div.caixas:hover {
+    color: var(--cor5);
+    background-color: var(--cor3);
+    transition-duration: 0.7s;
+}
+
 aside {
     background-color: var(--cor1);
     padding: 10px;
