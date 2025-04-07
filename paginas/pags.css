@@ -50,7 +50,6 @@ header > p {
 nav {
     background-color: var(--cor4);
     border-radius: 10px 10px 10px 10px;
-    margin: auto;
     width: 250px;
     box-shadow: 1px 1px 1px black;
 
@@ -83,13 +82,21 @@ main {
 }
 
 main > h1{
+    background-color: white;
     font-family: var(--fonte-padrao);
     margin: 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.607);
+    text-align: center;
 }
 
 main > p {
+    background-color: white;
     padding: 10px;
     font-size: 1.3em;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: justify;
 }
 
 section {
@@ -107,17 +114,6 @@ section > h2 {
     color: var(--cor3);
 }
 
-section  a {
-    text-decoration: none;
-    color: var(--cor2);
-}
-
-section a:hover {
-    background-color: var(--cor1);
-    color: var(--cor3);
-    border-radius: 7px;
-    text-decoration: underline;
-}
 
 ul {
     list-style-position: inside;
@@ -131,7 +127,13 @@ code {
     background-color: rgb(225, 225, 225);
 }
 
-
+img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
 
 
 footer {
