@@ -123,6 +123,7 @@ table {
     border: 3px solid black;
     border-collapse: collapse;
     margin: auto;
+    margin-bottom: 10px;
     max-width: 500px;
     min-width: 250px;
 }
@@ -151,6 +152,7 @@ img {
     border: 3px solid black;
     border-radius: 10px;
     margin: auto;
+    margin-bottom: 10px;
     display: block;
     max-height: 300px;
 }
