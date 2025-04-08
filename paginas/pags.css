@@ -51,6 +51,7 @@ nav {
     background-color: var(--cor4);
     border-radius: 10px 10px 10px 10px;
     width: 250px;
+    height: 50px;
     box-shadow: 1px 1px 1px black;
 
 }
@@ -146,7 +147,7 @@ code {
     background-color: rgb(225, 225, 225);
 }
 
-img {
+section img {
     max-width: 400px;
     width: 100%;
     border: 3px solid black;
